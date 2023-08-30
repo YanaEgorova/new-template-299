@@ -177,12 +177,12 @@ body.error-active .error__overlay {
 }
 .btn {
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 0 auto;
   position: relative;
   text-decoration: none;
   width: fit-content;
-  padding: 1.6rem 3rem;
+  padding: 1.4rem 3rem;
   letter-spacing: 0.1rem;
   display: block;
   text-transform: uppercase;
@@ -191,7 +191,7 @@ body.error-active .error__overlay {
   background-color: var(--second-brand-color);
   color: var(--sub-text-color);
   transition: all 0.3s ease-in-out;
-  border-radius: 1rem;
+  border-radius: 5rem;
 }
 
 .bold {

@@ -1,6 +1,9 @@
 export const item = product => {
   return `
   <li class="item">
+  <svg class="products-svg">
+  <use href="./img/icons/icons.svg#icon-ssspot"></use>
+</svg>
   <div class="product__block js_product glass glass-m" id="${product.id}">
      <div class="product__block--inner">
     <div class="product__img-box">
